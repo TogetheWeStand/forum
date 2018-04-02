@@ -1,0 +1,49 @@
+.content,
+.user-data,
+.edit-img,
+.delete-img,
+.likes-counter,
+.like,
+.liked {
+    display: inline-block;
+}
+
+.edit-img:hover,
+.delete-img:hover,
+.like:hover,
+.liked:hover {
+    cursor: pointer;
+}
+
+.comments-item {
+    height: auto;
+    background-color: lightgrey;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.user-data {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: lawngreen;
+}
+
+.content {
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    word-wrap: break-word;
+}
+
+.edit-img {
+    position: relative;
+    left: 940px;
+}
+
+.delete-img {
+    position: relative;
+    left: 860px;
+}

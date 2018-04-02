@@ -1,0 +1,13 @@
+.themes-item-name:hover,
+.img-close:hover,
+.img-open:hover {
+    cursor: pointer;
+}
+
+.themes-item {
+    /*height: 25px;*/
+    background-color: lightgrey;
+    margin-bottom: 5px;
+    list-style-type: none;
+    padding-left: 10px;
+}
